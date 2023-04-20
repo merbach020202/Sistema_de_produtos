@@ -97,7 +97,7 @@ do
             Console.WriteLine(@$"
             Nome do produto: {nomeProduto[i]}
             Quantidade individual do produto: {quantidadeProduto[i]}
-            Preço total a ser pago: {precoProduto[i] * quantidadeProduto[i]}
+            Preço total a ser pago: R${precoProduto[i] * quantidadeProduto[i]}
             ");
             }
             break;
